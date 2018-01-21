@@ -1,19 +1,18 @@
-===========
+===============
 Crypto Analysis
-===========
+===============
 
-Towel Stuff provides such and such and so and so. You might find
-it most useful for tasks involving <x> and also <y>. Typical usage
-often looks like this::
+CryptoAnalysis is a python library which lets users easily manage their
+crypto-currency portfolio using Machine Learning on various data sources
 
+``
     #!/usr/bin/env python
 
-    from towelstuff import location
-    from towelstuff import utils
-
-    if utils.has_towel():
-        print "Your towel is located:", location.where_is_my_towel()
-
+    from crypto_analysis import load_data
+    analysis_jan = load_data.load_data()
+    analysis_jan.get_top_n_crypto_tickers()
+    analysis_jan.get_data_from_yahoo()
+``
 (Note the double-colon and 4-space indent formatting above.)
 
 Paragraphs are separated by blank lines. *Italics*, **bold**,
