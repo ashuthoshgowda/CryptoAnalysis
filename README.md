@@ -21,5 +21,22 @@ Type the following in the terminal:
 ## ToDo
 
 ### Repo Contribution Policies
+
+clone Repo and cd into the directory
+
+    git pull origin
+    git checkout -b {branch_type}/{branch_name}
+    ## Make and review changes or add new modules
+    git add -A
+    git commit -m "commit msg"
+    git push {branch_type}/{branch_name}
+
+Create a Pull Request in the github GUI, and add reviewers    
+
 ### Data Preprocessing
+
+Add a detailed Data Scrapping ToDo list in docs/data_scrapping.md
+
 ### Data Science Module
+
+Add a detailed Data Science ToDo list in docs/data_science.md
